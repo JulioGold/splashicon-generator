@@ -85,36 +85,36 @@ var getPlatformIcons = function () {
         ]
     });
 
-    //ok
-    platforms.push({
-        name: 'wp8',
-        iconsPath: 'res/icons/wp8/',
-        isAdded: true,
-        icons: [
-            { name: 'ApplicationIcon.png', size: 99 },
-            { name: 'Background.png', size: 159 },
-        ]
-    });
+    // //ok
+    // platforms.push({
+    //     name: 'wp8',
+    //     iconsPath: 'res/icons/wp8/',
+    //     isAdded: true,
+    //     icons: [
+    //         { name: 'ApplicationIcon.png', size: 99 },
+    //         { name: 'Background.png', size: 159 },
+    //     ]
+    // });
 
-    //ok
-    platforms.push({
-        name: 'windows',
-        iconsPath: 'res/icons/windows/',
-        isAdded: true,
-        icons: [
-            { name: 'Square150x150Logo.scale-100.png', size: 150 },
-            { name: 'Square150x150Logo.scale-240.png', size: 360 },
-            { name: 'Square30x30Logo.scale-100.png', size: 30 },
-            { name: 'Square310x310Logo.scale-100.png', size: 310 },
-            { name: 'Square44x44Logo.scale-240.png', size: 106 },
-            { name: 'Square70x70Logo.scale-100.png', size: 70 },
-            { name: 'Square71x71Logo.scale-240.png', size: 170 },
-            { name: 'StoreLogo.scale-100.png', size: 50 },
-            { name: 'StoreLogo.scale-240.png', size: 120 },
-            { name: 'Wide310x150Logo.scale-100.png', size: 310 },
-            { name: 'Wide310x150Logo.scale-240.png', size: 744 },
-        ]
-    });
+    // //ok
+    // platforms.push({
+    //     name: 'windows',
+    //     iconsPath: 'res/icons/windows/',
+    //     isAdded: true,
+    //     icons: [
+    //         { name: 'Square150x150Logo.scale-100.png', size: 150 },
+    //         { name: 'Square150x150Logo.scale-240.png', size: 360 },
+    //         { name: 'Square30x30Logo.scale-100.png', size: 30 },
+    //         { name: 'Square310x310Logo.scale-100.png', size: 310 },
+    //         { name: 'Square44x44Logo.scale-240.png', size: 106 },
+    //         { name: 'Square70x70Logo.scale-100.png', size: 70 },
+    //         { name: 'Square71x71Logo.scale-240.png', size: 170 },
+    //         { name: 'StoreLogo.scale-100.png', size: 50 },
+    //         { name: 'StoreLogo.scale-240.png', size: 120 },
+    //         { name: 'Wide310x150Logo.scale-100.png', size: 310 },
+    //         { name: 'Wide310x150Logo.scale-240.png', size: 744 },
+    //     ]
+    // });
 
     //ok
     platforms.push({
@@ -123,7 +123,7 @@ var getPlatformIcons = function () {
         isAdded: true,
         icons: [
             { path: './android/', name: "icon-512.png", size: 512 },
-            { path: './wp8/', name: "icon-300.png", size: 300 },
+            //{ path: './wp8/', name: "icon-300.png", size: 300 },
             { path: './ios/', name: "icon-1024.jpg", size: 1024 } // App Store
         ]
     });
@@ -186,31 +186,31 @@ var getPlatformSplashs = function () {
         ]
     });
 
-    //ok
-    // https://msdn.microsoft.com/en-us/library/windows/apps/ff769511(v=vs.105).aspx
-    platforms.push({
-        name: 'wp8',
-        isAdded: true,
-        splashPath: 'res/screens/wp8/',
-        splash: [
-            { width: 768, height: 1280, name: "SplashScreenImage.jpg" },
-            { width: 480, height: 800, name: "SplashScreenImage.screen-WVGA.jpg" },
-            { width: 768, height: 1280, name: "SplashScreenImage.screen-WXGA.jpg" },
-            { width: 720, height: 1280, name: "SplashScreenImage.screen-720p.jpg" }
-        ]
-    });
+    // //ok
+    // // https://msdn.microsoft.com/en-us/library/windows/apps/ff769511(v=vs.105).aspx
+    // platforms.push({
+    //     name: 'wp8',
+    //     isAdded: true,
+    //     splashPath: 'res/screens/wp8/',
+    //     splash: [
+    //         { width: 768, height: 1280, name: "SplashScreenImage.jpg" },
+    //         { width: 480, height: 800, name: "SplashScreenImage.screen-WVGA.jpg" },
+    //         { width: 768, height: 1280, name: "SplashScreenImage.screen-WXGA.jpg" },
+    //         { width: 720, height: 1280, name: "SplashScreenImage.screen-720p.jpg" }
+    //     ]
+    // });
 
-    //ok
-    platforms.push({
-        name: 'windows',
-        isAdded: true,
-        splashPath: 'res/screens/windows/',
-        splash: [
-            { width: 620, height: 300, name: "SplashScreen.scale-100.png" },
-            { width: 1152, height: 1920, name: "SplashScreen.scale-240.png" },
-            { width: 1152, height: 1920, name: "SplashScreenPhone.scale-240.png" },
-        ]
-    });
+    // //ok
+    // platforms.push({
+    //     name: 'windows',
+    //     isAdded: true,
+    //     splashPath: 'res/screens/windows/',
+    //     splash: [
+    //         { width: 620, height: 300, name: "SplashScreen.scale-100.png" },
+    //         { width: 1152, height: 1920, name: "SplashScreen.scale-240.png" },
+    //         { width: 1152, height: 1920, name: "SplashScreenPhone.scale-240.png" },
+    //     ]
+    // });
 
     platforms.push({
         name: 'store',
